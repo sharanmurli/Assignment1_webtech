@@ -1,18 +1,18 @@
+/*Google Font Styles import*/
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 
+/*Body*/
 body,html{
   margin: 0;
-
   width: 1360px;
   overflow-x: hidden;
 
 }
 
-/*Logo*/
+/*Logo(Title) Start*/
 .logo{
    margin-left: 50px;
-   padding-left: 10px;
-   
+   padding-left: 10px;  
 }
 .logo h1{
     color: #0539c1;
@@ -22,10 +22,9 @@ hr{
     border: none; 
     height: 1px; 
     background-color: black; 
-    margin-right: 80px;
-   
-   
+    margin-right: 80px;  
 }
+/*Logo(Title) End*/
 
 /*Navigation Bar Start*/
 .navigation_list{  
@@ -41,8 +40,7 @@ hr{
     text-decoration: none;
     color: black;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
- 
+    font-size: 14px; 
 }
 
 .navigation_bar .navigation_list .link_active{
@@ -51,13 +49,10 @@ hr{
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
-   
-
 }
 /*Navigation Bar End*/
 
 /*Home Cutlery Image Section Start*/
-
 .main_section{
     padding-top: 30px;
     padding-left: 60px;
@@ -72,7 +67,6 @@ hr{
     background-position: 10px -115px;
     box-sizing: border-box;
     background-repeat: no-repeat;
-
 }
 
 .home_content{
@@ -87,7 +81,6 @@ hr{
 }
 
 .home_button{
-  
     color: black;
     text-decoration: none;
     padding: 16px;
@@ -100,8 +93,6 @@ hr{
 /*Home Cutlery Image Section End*/
 
 /*Styling Section Start*/
-
-
 .head h1{
     text-align: center;
     color: #0539c1;
@@ -110,11 +101,9 @@ hr{
     padding-bottom:10px ;
     font-size: 30px;
     font-weight: 200;
-  
 }
 
 .content{
-  
     padding-right: 40px;
 }
 
@@ -128,10 +117,8 @@ hr{
 
 .col_style img {
     max-width: 100%; 
-    height: auto; 
-    
+    height: auto;    
 }
-
 
 .clearfix::after {
     content: "";
@@ -145,4 +132,4 @@ hr{
     padding-top: 20px;
     padding-bottom: 40px;
 }
-  /*Styling Section End*/
+/*Styling Section End*/
